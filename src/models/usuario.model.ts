@@ -20,7 +20,7 @@ const UsuarioSchema = new Schema({
   password: { type: String },
   rol: { type: String, default: "USER" },
   token: { type: String, require: false },
-  createdAt: {
+  createdAt: { 
     type: Date,
     default: Date.now(),
   },

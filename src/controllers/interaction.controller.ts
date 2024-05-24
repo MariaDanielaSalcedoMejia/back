@@ -9,7 +9,7 @@ export const crearInteraction = async (req: CustomRequest, res: Response) => {
   const body = req.body;
 
   const { descripcion, cliente } = body;
-
+ 
   try {
     const interaction = new InteraccionModel({
       usuario: id,

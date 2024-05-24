@@ -15,7 +15,7 @@ export const validateJWT = (
 
   if (!token) {
     return res.status(401).json({
-      ok: false,
+      ok: false, 
       msg: "No hay token en la petición",
     });
   }

@@ -21,7 +21,7 @@ const UbicacionSchema = new Schema({
     type: String,
     required: false,
   },
-  zip: {
+  zip: { 
     type: String,
     required: false,
   },

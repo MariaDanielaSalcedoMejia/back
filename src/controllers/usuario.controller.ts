@@ -13,7 +13,7 @@ export const crearUsuario = async (req: Request, res: Response) => {
       return res.status(409).json({
         ok: false,
         msg: `Ya existe el email: ${email}`,
-      });
+      }); 
     }
 
     const newUsuario = new UsuarioModel({

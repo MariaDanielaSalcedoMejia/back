@@ -22,5 +22,5 @@ router.get("/", validateJWT, getInteracciones);
 router.get("/:id", validateJWT, getUnaInteraccion);
 router.put("/:id", validateJWT, updateInteraccion);
 router.delete("/:id", validateJWT, eliminarInteraccion);
-
+ 
 export default router;

@@ -17,7 +17,7 @@ interface ProductoInterface {
   nombre: string;
   sku: string;
   cantidad: number;
-  precio: number;
+  precio: number; 
   distribuidor: Distribuidor;
   opiniones: Opiniones;
   createdAt: Date;

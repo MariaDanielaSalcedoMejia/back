@@ -17,3 +17,4 @@ export const InteraccionModel: Model<any> = model(
   "interaccion",
   InteractionSchema
 );
+ 

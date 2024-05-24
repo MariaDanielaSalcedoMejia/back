@@ -8,7 +8,7 @@ import path from "path";
 import fs from "fs";
 import { obtenerUbicacionPorIP } from "../helpers/obtenerDireccionIp";
 import { config } from "../config/config";
-import UbicacionModel from "../models/ubicacionIp.model";
+import UbicacionModel from "../models/ubicacionIp.model"; 
 
 const environment = config[process.env.NODE_ENV || "desarrollo"];
 

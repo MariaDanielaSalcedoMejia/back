@@ -9,7 +9,7 @@ const sendEmail = (to: string, subject: string, html: string) => {
     {
       from: `${from} <${email}>`,
       to,
-      subject,
+      subject, 
       html,
     },
     (error: any, info: any) => {

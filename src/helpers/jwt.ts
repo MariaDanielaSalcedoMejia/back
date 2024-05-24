@@ -13,7 +13,7 @@ const generateJWT = (
     };
     jwt.sign(
       payload,
-      jwtSecret,
+      jwtSecret, 
       {
         expiresIn: expiresIn,
       },

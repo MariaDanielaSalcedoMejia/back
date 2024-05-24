@@ -14,7 +14,7 @@ export const crearProducto = async (req: CustomRequest, res: Response) => {
     res.status(200).json({
       ok: true,
       msg: "Producto creado satisfactoriamente",
-      producto: productoCreado,
+      producto: productoCreado, 
     });
   } catch (error) {
     console.error(error);

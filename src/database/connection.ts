@@ -12,7 +12,7 @@ export const dbConnection = async () => {
 
     await mongoose.connect(dbUrl);
     console.log("DB Online");
-  } catch (error) {
+  } catch (error) { 
     console.log(error);
     console.log("Error en la conexión de la base de datos");
   }

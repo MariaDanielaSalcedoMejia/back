@@ -17,7 +17,7 @@
     "fullstack"
   ],
   "author": "Taylor Asprilla",
-  "license": "ISC",
+  "license": "ISC", 
   "description": "Api del curso FullStack Avanzado",
   "dependencies": {
     "-": "^0.0.1",

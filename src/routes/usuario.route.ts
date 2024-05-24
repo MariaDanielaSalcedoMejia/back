@@ -26,7 +26,7 @@ router.post(
       .isEmpty()
       .isEmail(),
     validateFields,
-  ],
+  ], 
   crearUsuario
 );
 router.get("/", getUsuarios);
